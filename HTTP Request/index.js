@@ -5,7 +5,7 @@ const app=express()
 
 const port=3000
 
-// get is how to respond to the local host server "/" represents how to respond when go indside get method
+// get is how to respond to the local host server "/" represents how to respond when go inside get method
 // GET request handler for the root URL
 app.get("/",(req,res)=>{
     console.log(req.rawHeaders);
